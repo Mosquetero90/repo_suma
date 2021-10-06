@@ -3,6 +3,7 @@ name: suma-ic
 on:
   pull_request:
     branches: main
+    workflow_dispatch:
   
 jobs:
   ci-to-master:
